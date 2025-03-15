@@ -176,7 +176,7 @@ body.dark-theme{
   background-color: var(--body-color);
   border: 8px solid var(--first-color);
   border-radius: 50%;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   border: grid;
   place-items: center;
   transition: background-color .4s;  
