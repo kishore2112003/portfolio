@@ -869,9 +869,7 @@ header{
   grid-template-columns: 400px;
   justify-content: center;
  } 
-  .contact_message{
-    bottom: -65%;
-  }
+  
   .contact_send{
     padding: 5px;
     width: 250px;
@@ -900,9 +898,7 @@ header{
   .contact_area{
     height: 18rem;
   }
-  .contact_message{
-    bottom: -78%;
-  }
+ 
   .contact_send{
     justify-self: center;
     margin-top: 1.5rem;
