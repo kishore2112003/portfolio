@@ -55,6 +55,7 @@
 
       <!--==================== MAIN ====================-->
       <main class="main">
+         <div id="canvas"> 
          <!--==================== ABOUT ====================-->
          <section class="about section">
             <h2 class="section_title">
@@ -101,6 +102,7 @@
             </div>
             
          </section>
+         </div>
       </main>
 
       <!--==================== FOOTER ====================-->
@@ -157,3 +159,20 @@
       <script src="assets/js/main.js"></script>
    </body>
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "#canvas",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x3f44ff,
+  backgroundColor: 0xffffff
+})
+</script>
