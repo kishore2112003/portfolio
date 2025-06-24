@@ -19,6 +19,7 @@
       
    </head>
    <body>
+      
       <!--==================== HEADER ====================-->
      <header class="header " id="header">
       <nav class="nav container">
@@ -61,17 +62,17 @@
 
       <!--==================== MAIN ====================-->
       <main class="main">
+         <div id="canvas"> 
          <!--==================== HOME ====================-->
          <section class="home section">
             <div class="home_rectangle"></div>
-
             <div class="home_container container grid">
                <div class="home_perfil perfil">
                   <div class="perfil_content">
                      <img src="assets/img/kishore2.jpg" alt="" class="perfil_img" class="perfil-img" >
                   </div>
                </div>
-
+               
                <div class="home_content grid">
                   <div class="home_data grid">
                      <h1 class="class_name">Kishore Kumar M</h1>
@@ -87,9 +88,9 @@
                   </div>
                   <a href="assets/pdf/Kishore-Cv.pdf" download="" class="home_button button">Download CV</a>
                </div>
-          
             </div>
          </section>
+         </div>
 
          <!--==================== SERVICES ====================-->
          <section class="services section">
@@ -277,3 +278,20 @@
       <script src="assets/js/index.js"></script>     
    </body>
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "#canvas",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x3f44ff,
+  backgroundColor: 0xffffff
+})
+</script>
