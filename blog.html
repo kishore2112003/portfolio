@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Blog -portfolio</title>
+    
   </head>
   <body>
     <header class="header" id="header">
@@ -54,7 +55,76 @@
     </header>
 
     <main class="main">
-      <section class="about section"></section>
+      <section class="services section">
+            <h2 class="section_title">
+               Explore the Blog Section
+            </h2>
+            <div class="service_container container grid box-card">
+              
+
+               <article class="service_card ">
+                  <i class="ri-task-line"></i>
+                  <h5 class="service_title">Building a To-Do App in React</h5>
+                  <p class="service_description">
+                     A step-by-step guide to creating a simple yet powerful to-do list app using React and hooks like useState.
+                  </p>
+                  <li class="section_date">🗓️ June 28, 2025 | 🧑 Kishore M | 🏷️ React, useState, Beginner
+                    <br>![📸 Screenshot of To-Do List UI]</li>
+                  <button class="service_button button">
+                     Read More
+                  </button>
+                 
+                  </div>
+               </article>
+
+
+             
+                  <div class="service_modal">
+                     <div class="service_modal-content ser_card ">
+                        <i class="ri-close-line  service_modal-close"> </i>
+                           <h2 class="service_modal-title">Blog Section UI (React)</h2>
+                           <ul class="service_model-list grid pad">
+                              <li class="service_modal-item text_sec">
+                                 Want to build it dynamically? Here’s how your BlogSection.jsx component might look:
+                              </li>
+                            </ul>
+
+                            <p >Here's the full code:</p>
+                            <div class="code">
+                              
+<pre>
+    <code>
+&lt;div key=&#123;index&#125; className="bg-gray-100 rounded-2xl shadow p-4 hover:shadow-lg transition"&gt;
+  &lt;img src=&#123;blog.img&#125; alt=&#123;blog.title&#125; className="rounded-xl mb-3" /&gt;
+
+  &lt;h3 className="text-xl font-semibold"&gt;
+    &lt;i className="ri-task-line text-blue-600 mr-2"&gt;&lt;/i&gt;
+    &#123;blog.title&#125;
+  &lt;/h3&gt;
+
+  &lt;p className="text-gray-600 text-sm mb-2"&gt;
+    &lt;b&gt;Summary:&lt;/b&gt; &#123;blog.excerpt&#125;
+  &lt;/p&gt;
+
+  &lt;ul className="list-disc list-inside text-xs text-gray-500 mb-2"&gt;
+    &#123;blog.tags.map((tag, i) =&gt; (
+      &lt;li key=&#123;i&#125;&gt;&#123;tag&#125;&lt;/li&gt;
+    ))&#125;
+  &lt;/ul&gt;
+
+  &lt;a href=&#123;blog.link&#125; className="inline-block mt-3 text-blue-600 font-medium hover:underline"&gt;
+    Read More →
+  &lt;/a&gt;
+&lt;/div&gt;
+    </code>
+  </pre>
+</div>
+
+                     </div>
+                  </div>
+               </article>
+            </div>
+         </section>
     </main>
 
     <footer class="footer">
@@ -120,5 +190,6 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
+     <script src="assets/js/index.js"></script>  
   </body>
 </html>
