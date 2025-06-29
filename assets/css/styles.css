@@ -859,15 +859,22 @@ header{
   .scrollup{
     display: none;
   }
-  
-  
+  .ser_card{
+    width: 90%;
+  }
   .contact_send{
     padding: 5px;
     width: 240px;
     bottom: 5px;
   }
+  .service_modal-title{
+    font-size: 1rem;
+  }
   .sent_btn{
     text-align: center;
+  }
+  .service_modal-close{
+    margin-right: -1rem;
   }
 }
 
@@ -883,6 +890,7 @@ header{
  }
  .service_button{
   width: 200px;
+  font-size: 25px;
 }
  .work_container{
   grid-template-columns: 350px;
@@ -911,6 +919,10 @@ header{
   .work_container{
     grid-template-columns: repeat(1,350px);
   }
+  .service_button{
+    font-size: 18px;
+    width: 200px;
+  }
   .contact_page{
     grid-template-columns: 670px;
     justify-content: center;
@@ -923,6 +935,10 @@ header{
     height: 18rem;
   }
   
+  .box-card{
+    display: flex;
+    justify-content: center;
+  }
   
   .sent_btn{
     display: flex;
@@ -1054,7 +1070,7 @@ header{
     display: flex;
     justify-content: center;
   }
-
+  
   .footer_container{
     row-gap: 6rem;
     padding-block: 3.5rem;
