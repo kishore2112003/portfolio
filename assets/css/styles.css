@@ -182,6 +182,7 @@ body.dark-theme{
   transition: background-color .4s;  
 }
 .perfil_content{
+  margin-top: 1rem;
   padding-top: 1rem;
   width: 180px;
   height: 180px;
