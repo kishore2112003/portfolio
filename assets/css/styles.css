@@ -176,13 +176,12 @@ body.dark-theme{
   background-color: var(--body-color);
   border: 8px solid var(--first-color);
   border-radius: 50%;
-  padding-top: 1rem;
   border: grid;
   place-items: center;
   transition: background-color .4s;  
 }
 .perfil_content{
-  margin-top: 1rem;
+   margin-top: 1rem;
   padding-top: 1rem;
   width: 180px;
   height: 180px;
@@ -856,7 +855,7 @@ header{
     bottom: 5px;
   }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
   .scrollup{
     display: none;
   }
@@ -877,6 +876,9 @@ header{
   .service_modal-close{
     margin-right: -1rem;
   }
+  .perfil_content{
+    margin-top: 1.6rem;
+  }
 }
 
 /* For medium devices */
@@ -886,6 +888,7 @@ header{
   grid-template-columns: 320px;
   justify-content: center;
  }
+ 
  .service_modal-content{
   width: 400px;
  }
@@ -934,6 +937,9 @@ header{
   }
   .contact_area{
     height: 18rem;
+  }
+  .perfil_content{
+    margin-top: 1.7rem;
   }
   
   .box-card{
